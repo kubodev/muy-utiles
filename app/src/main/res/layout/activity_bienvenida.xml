@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/splash_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estamos contigo"
+        android:textSize="15.40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/splash_heading"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Te llevamos lo que necesitas cuando lo quieras"
+        android:textSize="20.75dp" />
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="315dp"
+        android:layout_height="378dp"
+        android:src="@drawable/skip" />
+
+    <TextView
+        android:onClick="saltar"
+        android:id="@+id/vewPagerSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="15dp"
+        android:text="Saltar"
+        android:textColor="#ff0000"
+        android:textSize="15dp" />
+
+</LinearLayout>
