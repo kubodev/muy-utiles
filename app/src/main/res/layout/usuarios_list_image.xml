@@ -26,7 +26,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Documento"/>
+                android:text="Id: "/>
 
             <TextView
                 android:id="@+id/idNombre"
@@ -39,7 +39,7 @@
                 android:id="@+id/idProfesion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profesion "
+                android:text="Descripción:  "
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"/>
